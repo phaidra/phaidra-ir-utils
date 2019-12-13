@@ -1,0 +1,22 @@
+{
+  "name": "phaidra-ir-utils",
+  "version": "0.0.1",
+  "description": "support tools for phaidra-ir",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "start": "node -r esm main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:phaidra/phaidra-ir-utils.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "esm": "^3.2.22",
+    "qs": "^6.9.1"
+  }
+}
