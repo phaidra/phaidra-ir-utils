@@ -76,7 +76,7 @@ async function createSitemap(){
       latestModified = doc.modified
     }
 
-    console.log('[' + i + '/' + total + '] processing title[' + doc.pid + '] latestModified[' + latestModified + ']')
+    // console.log('[' + i + '/' + total + '] processing title[' + doc.pid + '] latestModified[' + latestModified + ']')
     urls.push({ loc: 'https://' + config.baseurl + '/' + doc.pid, lastmod: doc.modified })
 
     if (urls.length > 10000) {
