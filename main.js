@@ -103,7 +103,7 @@ async function createSitemap(){
 
   let idxXml = getIndexfileXml(indexFiles)
   console.log('creating sitemap index')
-  fs.writeFileSync(config.sitemapfolder + 'sitemap.xml', idxXml)
+  fs.writeFileSync(config.sitemapfolder + 'sitemap_index.xml', idxXml)
 }
 
 console.log('started')
